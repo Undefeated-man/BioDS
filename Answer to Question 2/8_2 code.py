@@ -42,6 +42,6 @@ def fun(x, y):
     return (np.exp(-x) - y) / 2
     
     
-# Test. This test is using the one on https://zhuanlan.zhihu.com/p/146771778
+# Test. This test refers to https://zhuanlan.zhihu.com/p/146771778
 if __name__ == "__main__":
     runge_kutta_4(fun, np.arange(0, 2, .1), .5)
